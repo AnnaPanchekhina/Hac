@@ -1,0 +1,90 @@
+name: hacaton
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_route: ^6.1.0
+  salomon_bottom_bar: ^3.3.2
+  qr_code_scanner: ^1.0.1
+  flutter_svg: ^2.0.5
+  qr_flutter: ^4.0.0
+  permission_handler: ^10.2.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  auto_route_generator: ^6.1.0
+  build_runner: ^2.3.3
+
+flutter:
+  assets:
+    - assets/images/fon.jpg
+    - assets/images/ira.svg
+    - assets/images/madam1.jpg
+    - assets/images/iratext1.svg
+    - assets/images/irablock.svg
+    - assets/images/irasocial.svg
+    - assets/images/dostig.svg
+    - assets/images/portfolio.svg
+    - assets/images/add1.svg
+    - assets/images/fonc3.jpg
+    - assets/images/foto3.jpg
+    - assets/images/andrey.svg
+    - assets/images/nastyaphoto.jpg
+    - assets/images/fon2.jpg
+    - assets/images/nastyaname.svg
+    - assets/images/kontact.svg
+    - assets/images/ssait.svg
+    - assets/images/add2.svg
+    - assets/images/add3.svg
+    - assets/images/port3.svg
+    - assets/images/Vector.jpg
+    - assets/images/CARTE.svg
+    - assets/images/CARTE.svg
+    - assets/images/FonVisa.svg
+    - assets/images/Cnopcaglv.svg
+    - assets/images/treygol.svg
+    - assets/images/send.svg
+    - assets/images/qr.svg
+    - assets/images/scan.svg
+    - assets/images/Pen.svg
+    - assets/images/redact.svg
+    - assets/images/eye.svg
+    - assets/images/see.svg
+    - assets/images/near.svg
+    - assets/images/Map.svg
+    - assets/images/qest.svg
+    - assets/images/tp.svg
+    - assets/images/Anton1.jpg
+    - assets/images/AnIm.svg
+    - assets/images/Pen2.svg
+    - assets/images/Plash.svg
+    - assets/images/111.svg
+    - assets/images/222.svg
+    - assets/images/333.svg
+    - assets/images/444.svg
+    - assets/images/555.svg
+    - assets/images/666.svg
+    - assets/images/888.svg
+    - assets/images/999.jpg
+    - assets/images/IrinaS.svg
+    - assets/images/Vis.svg
+    - assets/images/Designer.svg
+
+
+  uses-material-design: true
+
+
