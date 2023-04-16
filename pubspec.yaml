@@ -83,6 +83,31 @@ flutter:
     - assets/images/IrinaS.svg
     - assets/images/Vis.svg
     - assets/images/Designer.svg
+    - assets/images/NasIm.svg
+    - assets/images/Rukov.svg
+    - assets/images/Prod.svg
+    - assets/images/AndreIm.svg
+    - assets/images/Andre.jpg
+    - assets/images/fonn.jpg
+    - assets/images/Visit1.svg
+    - assets/images/Visit2.svg
+    - assets/images/Visit3.svg
+    - assets/images/HS1.svg
+    - assets/images/HS2.svg
+    - assets/images/HS3.svg
+    - assets/images/HS4.svg
+    - assets/images/SS0.svg
+    - assets/images/SS1.svg
+    - assets/images/SS2.svg
+    - assets/images/kas.svg
+    - assets/images/k1.svg
+    - assets/images/k2.svg
+    - assets/images/k3.svg
+    - assets/images/k11.jpg
+    - assets/images/k22.jpg
+    - assets/images/seeqr.svg
+    - assets/images/qrrr.svg
+
 
 
   uses-material-design: true

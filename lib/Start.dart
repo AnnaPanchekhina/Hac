@@ -5,7 +5,9 @@ import 'package:hacaton/SohrVizit.dart';
 import 'package:hacaton/visitka2.dart';
 import 'package:hacaton/visitka3.dart';
 import 'BackgroundSohr.dart';
+import 'Proryd.dart';
 import 'QR.dart';
+import 'QRscreen.dart';
 import 'visitka1.dart';
 
 
@@ -259,7 +261,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => QR()));
+                              MaterialPageRoute(builder: (context) => ProRyd()));
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(Colors
@@ -270,8 +272,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.only(top: 5, right: 2, left: 2,bottom: 190),
-                      child: ElevatedButton(
+                      padding: EdgeInsets.only(top: 5, right: 2, left: 11,bottom: 190),
                         child: Stack(
                           children: <Widget>[
                             Container(
@@ -292,18 +293,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ],
                         ),
-                        onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => QR()));
-                        },
-                        style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors
-                              .transparent),
-                          elevation: MaterialStateProperty.all(0.0),
-                          padding: MaterialStateProperty.all(EdgeInsets.all(7)),
-                        ),
                       ),
-                    ),
                   ],
                 ),
               ),

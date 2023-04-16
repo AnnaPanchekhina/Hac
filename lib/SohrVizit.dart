@@ -13,12 +13,15 @@ class SohrVizit extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        backgroundColor: Colors.transparent, elevation: 0.0,),
       body: BackgroundSohr(
         child: SingleChildScrollView(
           child: Column(
             children: [
               Container(
-                padding: EdgeInsets.only(top: 50, right: 210, left: 30),
+                padding: EdgeInsets.only(top: 40, right: 210, left: 40),
                 child: SvgPicture.asset('assets/images/Vis.svg'),
               ),
 
@@ -31,7 +34,8 @@ class SohrVizit extends StatelessWidget {
                         child: Stack(
                           children: <Widget>[
                             Container(
-                              child: Image.asset(
+                              child:
+                             Image.asset(
                                 'assets/images/madam1.jpg',
                               width: 160,),
                             ),
@@ -62,7 +66,7 @@ class SohrVizit extends StatelessWidget {
                       ),
                     ),
                     Container(
-                      padding: EdgeInsets.only(top: 3, right: 14, left: 5),
+                      padding: EdgeInsets.only(top: 15, right: 14, left: 5),
                       child: ElevatedButton(
                         child: Stack(
                           children: <Widget>[
@@ -73,22 +77,22 @@ class SohrVizit extends StatelessWidget {
                             ),
                             Container(
                               padding: EdgeInsets.only(
-                                  top: 18, right: 5, left: 34),
-                              child: SvgPicture.asset('assets/images/Pen.svg'),
+                                  top: 110, right: 5, left: 5),
+                              child: SvgPicture.asset('assets/images/NasIm.svg'),
                               width: 50,
                               height:50,
                             ),
                             Container(
                               padding: EdgeInsets.only(
-                                  top: 75, right: 8, left: 8),
+                                  top: 120, right: 8, left: 8),
                               child: SvgPicture.asset(
-                                  'assets/images/redact.svg'),
+                                  'assets/images/Rukov.svg'),
                             ),
                           ],
                         ),
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => LicnCab()));
+                              MaterialPageRoute(builder: (context) => Visitka2()));
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(Colors
@@ -105,103 +109,31 @@ class SohrVizit extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      padding: EdgeInsets.only(top: 5, right: 1, left: 24, bottom: 190),
+                      padding: EdgeInsets.only(top: 5, right: 1, left: 10, bottom: 370),
                       child: ElevatedButton(
                         child: Stack(
                           children: <Widget>[
                             Container(
-                              child: SvgPicture.asset(
-                                'assets/images/Cnopcaglv.svg',),
+                              child: Image.asset(
+                                'assets/images/Andre.jpg',),
                             ),
                             Container(
                               padding: EdgeInsets.only(
-                                  top: 18, right: 0, left: 30),
+                                  top: 120, right: 5, left: 10),
                               child: SvgPicture.asset(
-                                'assets/images/eye.svg',),
-                              width: 70,
-                              height: 70,
+                                'assets/images/AndreIm.svg',),
                             ),
                             Container(
                               padding: EdgeInsets.only(
-                                  top: 75, right: 20, left: 18),
+                                  top: 140, right: 20, left: 10),
                               child: SvgPicture.asset(
-                                'assets/images/see.svg',),
+                                'assets/images/Prod.svg',),
                             ),
                           ],
                         ),
                         onPressed: () {
                           Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => SohrVizit()));
-                        },
-                        style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors
-                              .transparent),
-                          elevation: MaterialStateProperty.all(0.0),
-                          padding: MaterialStateProperty.all(EdgeInsets.all(7)),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      padding: EdgeInsets.only(top: 5, right: 0, left:0,bottom: 190),
-                      child: ElevatedButton(
-                        child: Stack(
-                          children: <Widget>[
-                            Container(
-                              child: SvgPicture.asset(
-                                  'assets/images/Cnopcaglv.svg'),
-                            ),
-                            Container(
-                              padding: EdgeInsets.only(
-                                  top: 18, right: 10, left: 35),
-                              child: SvgPicture.asset('assets/images/Map.svg'),
-                              width: 75,
-                              height: 75,
-                            ),
-                            Container(
-                              padding: EdgeInsets.only(
-                                  top: 75, right: 5, left: 5),
-                              child: SvgPicture.asset('assets/images/near.svg'),
-                            ),
-                          ],
-                        ),
-                        onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => QR()));
-                        },
-                        style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors
-                              .transparent),
-                          elevation: MaterialStateProperty.all(0.0),
-                          padding: MaterialStateProperty.all(EdgeInsets.all(7)),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      padding: EdgeInsets.only(top: 5, right: 2, left: 2,bottom: 190),
-                      child: ElevatedButton(
-                        child: Stack(
-                          children: <Widget>[
-                            Container(
-                              child: SvgPicture.asset(
-                                  'assets/images/Cnopcaglv.svg'),
-                            ),
-                            Container(
-                              padding: EdgeInsets.only(
-                                  top: 18, right: 5, left: 32),
-                              child: SvgPicture.asset('assets/images/qest.svg'),
-                              width: 70,
-                              height: 70,
-                            ),
-                            Container(
-                              padding: EdgeInsets.only(top: 75, right: 15, left: 15),
-                              child: SvgPicture.asset(
-                                  'assets/images/tp.svg'),
-                            ),
-                          ],
-                        ),
-                        onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => QR()));
+                              MaterialPageRoute(builder: (context) => Visitka3()));
                         },
                         style: ButtonStyle(
                           backgroundColor: MaterialStateProperty.all(Colors
