@@ -77,10 +77,9 @@ class SohrVizit extends StatelessWidget {
                             ),
                             Container(
                               padding: EdgeInsets.only(
-                                  top: 110, right: 5, left: 5),
-                              child: SvgPicture.asset('assets/images/NasIm.svg'),
-                              width: 50,
-                              height:50,
+                                  top: 105, right: 8, left: 8),
+                              child: SvgPicture.asset(
+                                  'assets/images/NasIm.svg'),
                             ),
                             Container(
                               padding: EdgeInsets.only(
@@ -109,7 +108,7 @@ class SohrVizit extends StatelessWidget {
                 child: Row(
                   children: [
                     Container(
-                      padding: EdgeInsets.only(top: 5, right: 1, left: 10, bottom: 370),
+                      padding: EdgeInsets.only(top: 5, right: 1, left: 10, bottom: 380),
                       child: ElevatedButton(
                         child: Stack(
                           children: <Widget>[

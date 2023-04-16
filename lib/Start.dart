@@ -5,6 +5,7 @@ import 'package:hacaton/SohrVizit.dart';
 import 'package:hacaton/visitka2.dart';
 import 'package:hacaton/visitka3.dart';
 import 'BackgroundSohr.dart';
+import 'LicnCab2.dart';
 import 'Proryd.dart';
 import 'QR.dart';
 import 'QRscreen.dart';
@@ -76,8 +77,8 @@ class _MyHomePageState extends State<MyHomePage> {
                         padding: EdgeInsets.only(top: 140,left: 23,right: 3),
                         child: SvgPicture.asset('assets/images/666.svg'),),
                       Container(
-                        padding: EdgeInsets.only(top: 23,left: 200,right: 30),
-                        child: SvgPicture.asset('assets/images/888.svg'),),
+                        padding: EdgeInsets.only(top: 20,left: 200,right: 30),
+                        child: Image.asset('assets/images/Anqr.jpg'),),
                     ],
                   ),
                   ),
@@ -86,8 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 child: Row(
                   children: [
                     Container(
-                      padding: EdgeInsets.only(top: 70, right: 2, left: 24),
-                      child: ElevatedButton(
+                      padding: EdgeInsets.only(top: 70, right: 10, left: 30),
                         child: Stack(
                           children: <Widget>[
                             Container(
@@ -110,18 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                           ],
                         ),
-                        onPressed: () {
-                          Navigator.push(context,
-                              MaterialPageRoute(builder: (context) => QR()));
-                        },
-                        style: ButtonStyle(
-                          backgroundColor: MaterialStateProperty.all(Colors
-                              .transparent),
-                          elevation: MaterialStateProperty.all(0.0),
-                          padding: MaterialStateProperty.all(EdgeInsets.all(7)),
-                        ),
                       ),
-                    ),
                     Container(
                       padding: EdgeInsets.only(top: 70, right: 2, left: 2),
                       child: ElevatedButton(

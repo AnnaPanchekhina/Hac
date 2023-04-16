@@ -56,7 +56,7 @@ class Visitka3 extends StatelessWidget {
                   ]),
             ),
             Container(
-              padding: EdgeInsets.only(top: 10, left: 30, right: 30, bottom: 20),
+              padding: EdgeInsets.only(top: 10, left: 30, right: 30, bottom: 26),
               child: SvgPicture.asset('assets/images/add3.svg'),
               width: 495,
             )
